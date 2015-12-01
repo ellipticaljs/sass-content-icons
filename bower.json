@@ -1,0 +1,24 @@
+{
+  "name": "sass-content-icons",
+  "description": "Content icon font",
+  "version":"1.0.2",
+  "main": "dist/content.css",
+  "authors": [
+    "S. Francis"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "content",
+    "icon",
+    "fonts"
+  ],
+  "homepage": "https://github.com/ellipticaljs/sass-content-icons",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

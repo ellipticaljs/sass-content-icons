@@ -1,12 +1,12 @@
 {
   "name": "sass-content-icons",
   "description": "Content icon font",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "S. Francis",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tachyon1337/sass-content-icons.git"
+    "url": "https://github.com/ellipticaljs7/sass-content-icons.git"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
