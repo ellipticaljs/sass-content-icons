@@ -1,7 +1,7 @@
 {
   "name": "sass-content-icons",
   "description": "Content icon font",
-  "version":"1.0.3",
+  "version":"1.0.4",
   "main": "dist/content.css",
   "authors": [
     "S. Francis"
