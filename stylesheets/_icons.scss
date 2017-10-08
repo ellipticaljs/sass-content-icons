@@ -3,17 +3,17 @@
 @mixin content-icons(){
   @font-face {
     font-family: 'content';
-    src:url('fonts/content.eot?9jofr9');
-    src:url('fonts/content.eot?9jofr9#iefix') format('embedded-opentype'),
-    url('fonts/content.ttf?9jofr9') format('truetype'),
-    url('fonts/content.woff?9jofr9') format('woff'),
-    url('fonts/content.svg?9jofr9#content') format('svg');
+    src:
+            url('fonts/content.ttf?tgg5yo') format('truetype'),
+            url('fonts/content.woff?tgg5yo') format('woff'),
+            url('fonts/content.svg?tgg5yo#content') format('svg');
     font-weight: normal;
     font-style: normal;
   }
 
-  [class^="icon-content"], [class*=" icon-content"] {
-    font-family: 'content';
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'content' !important;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -27,6 +27,15 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  .icon-content-info:before {
+    content: "\e903";
+  }
+  .icon-content-error:before {
+    content: "\e904";
+  }
+  .icon-content-warning:before {
+    content: "\e905";
+  }
   .icon-content-create:before {
     content: "\e609";
   }
@@ -132,5 +141,4 @@
   .icon-content-toggle:before {
     content: "\e902";
   }
-
 }
